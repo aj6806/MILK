@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heuristics table 2 (BS 4)</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/styles.min.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="table-responsive">
+            <table class="table table-striped table-sm">
+                <thead>
+                    <tr>
+                        <th>Perceivable</th>
+                        <th>Operable</th>
+                        <th>Understandable</th>
+                        <th>Robust</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>All text elements are visible to screen reader&nbsp;[TAWU, R2]</td>
+                        <td>Touch targets are 9mm high and 9 mm wide [Mobile A11Y TF, 3.2]</td>
+                        <td>Screen reader is able to detect change in orientation&nbsp;[Mobile A11Y TF, 4.1]</td>
+                        <td>The amount of text entry is reduced thorough the use of select menus, radio buttons, checkboxes, etc [Mobile A11Y TF, 5.3]</td>
+                    </tr>
+                    <tr>
+                        <td>Do not need to scroll to see navigation menu&nbsp;[Mobile A11y TF, 4.3]</td>
+                        <td>Touch targets close to minimum size are surrounded by inactive space [Mobile A11Y TF, 3.2]</td>
+                        <td>Both landscape and portrait orientation are supported [Mobile A11Y TF, 4.1]</td>
+                        <td>Application complies with OS-level changes to font [Mobile A11Y TF, 2.2, 5.3]</td>
+                    </tr>
+                    <tr>
+                        <td>Link text does not go beyond viewport width [Mobile A11y TF, 2.1]</td>
+                        <td>Gestures can be replaced by focusing and activating elements [Mobile A11Y TF, 3.3]</td>
+                        <td>Important information can be viewed without scrolling [TAWU R26]&nbsp;[Mobile A11Y TF, 4.3]</td>
+                        <td>Application complies with OS-level changes to text color [Mobile A11Y TF, 5.3]</td>
+                    </tr>
+                    <tr>
+                        <td>Form fields are below (not beside) labels [Mobile A11y TF, 2.1]</td>
+                        <td>Two-finger gestures can be replaced with a single stylus or by focusing and activating elements [Mobile A11Y TF, 3.3]</td>
+                        <td>Default language of screen can be programmatically determined (WCAG 3.1.1)</td>
+                        <td>Information is exposed in a standard and expected way that screen reader can recognize and interact with [Mobile A11Y TF, 5.3]</td>
+                    </tr>
+                    <tr>
+                        <td>Images have an alternate text description (WCAG 1.1.1)</td>
+                        <td>Events are triggered only when touchend event is fired [Mobile A11Y TF, 3.3]</td>
+                        <td>Use of jargon / technical terms is minimal and is explained when it is used (WCAG 3.1.3)</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>UI elements (buttons, divs, etc) have descriptive labeling&nbsp;(WCAG 1.1.1)</td>
+                        <td>Device manipulation (shaking, tilting) can be replaced by touch / keyboard options [Mobile A11Y TF, 3.4]</td>
+                        <td>Abbreviations are explained / defined (WCAG 3.1.4)</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Audio files have text transcript&nbsp;(WCAG 1.2.1)</td>
+                        <td>Does not require extensive thumb range of motion [Mobile A11Y TF, 3.5]</td>
+                        <td>Content is at an 8th grade reading level (WCAG 3.1.5)&nbsp;[TAWU R17]</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Prerecorded videos have captions (WCAG 1.2.2)</td>
+                        <td>Natural and comfortable left-handed use [Mobile A11Y TF, 3.5]</td>
+                        <td>Words that are difficult to pronounce have links to a pronunciation guide (WCAG 3.1.6)</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Videos have either text transcript or audio description (WCAG 1.2.3)</td>
+                        <td>An external keyboard is able to be used to navigate the site (WCAG 2.1.1)</td>
+                        <td>Context of focus does not change when an element is focused (WCAG 3.2.1)</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Live videos have captions (WCAG 1.2.4)</td>
+                        <td>User is able to move focus between all elements using only the external keyboard (WCAG 2.1.2)</td>
+                        <td>Forms do not automatically submit when all fields are filled (WCAG 3.2.2)</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Prerecorded videos have audio description (WCAG 1.2.5)</td>
+                        <td>All functionality can be accessed through the external keyboard. (WCAG 2.1.3)</td>
+                        <td>Content at the top of the page is consistent across the app (WCAG 3.2.3)</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Prerecorded audio content has sign language interpretation (WCAG 1.2.6)</td>
+                        <td>Users are able to turn off, adjust, or extend the time limit for actions or displaying content (WCAG 2.2.1)</td>
+                        <td>Elements that trigger changes (buttons, links, etc) are clearly indicated (WCAG 3.2.3)&nbsp;[Mobile A11Y TF, 4.5]</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Videos have extended audio description that gives the narrator adequate time to describe what is happening in the video (WCAG 1.2.7)</td>
+                        <td>Moving, blinking, scrolling content has an option to stop the motion&nbsp; (WCAG 2.2.2)</td>
+                        <td>Items that perform the same action are contained in the same element (WCAG 3.2.4) [Mobile A11Y TF, 4.3]</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Videos have a full text transcript and audio description that is linked to from the original content&nbsp;(WCAG 1.2.8)</td>
+                        <td>Users are able to delay frequency of auto-updating content (WCAG 2.2.2)</td>
+                        <td>Elements use conventional positioning (upper left for back, menus are left-aligned, etc) (WCAG 3.2.4)</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Live Audio has text transcript (either real-time closed captioning or a prepared script that is linked to from the Audio content)&nbsp;(WCAG 1.2.9)</td>
+                        <td>No time limits or time-controlled content &nbsp;(WCAG 2.2.3)&nbsp;[TAWU R23]</td>
+                        <td>Elements are not changed until users request a change (WCAG 3.2.5)</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Content is ordered so that screen reader reads it in an order that makes sense (WCAG 1.3.2)</td>
+                        <td>Does not use an automatic refresh or redirect that interrupts users’ focus (WCAG 2.2.4)</td>
+                        <td>Identify and explain any errors that can be automatically detected (WCAG 3.3.1)</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Uses more than one sensory characteristic for instructions (WCAG 1.3.3)</td>
+                        <td>User data is maintained when the user is asked to reauthenticate (shopping cart content, form / survey answers, etc) (WCAG 2.2.5)</td>
+                        <td>Save correct information and allow user to correct the error and continue (WCAG 3.3.1)</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>User is notified of state changes&nbsp;[TAWU, R29]</td>
+                        <td>User data is maintained when the user is asked to reauthenticate (shopping cart content, form / survey answers, etc) (WCAG 2.2.5)</td>
+                        <td>Labels or instructions are provided when content requires input (WCAG 3.3.2)</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>On-screen way to manipulate volume control for audio content&nbsp;(WCAG, 1.4)</td>
+                        <td>Link does not violate general flash threshold (WCAG 2.3.1)</td>
+                        <td>Instructions for how to use gestures are readily available [Mobile A11Y TF, 3.3, 4.6]</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>On-page controls for changing text size [Mobile A11Y TF, 2.2]</td>
+                        <td>Content does not flash more than 3 times in any 1 second period (WCAG 2.3.1)</td>
+                        <td>Error suggestion for formatted input shows the correct format (WCAG 3.3.3)</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Uses clear, sensible fonts&nbsp;[Mobile A11Y TF, 2.2]</td>
+                        <td>Discernable home button [TAWU R5]</td>
+                        <td>Legal, financial, changes to user controlled data are checked for input errors and the user is asked to confirm or these changes are made reversible (WCAG 3.3.4)</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Information conveyed by color must also be available by other means (WCAG 1.4.1)&nbsp;[TAWU R7]&nbsp;</td>
+                        <td>Screen has title that describes the purpose (WCAG 2.4.2)</td>
+                        <td>Onscreen indiactor for how to use gestures [Mobile A11Y TF, 3.3, 4.6]</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Text is a reasonable default size (14pt) (WCAG 1.4)&nbsp;[Mobile A11Y TF, 2.1]</td>
+                        <td>Elements are focused in an understandable and meaningful order (WCAG 2.4.3)</td>
+                        <td>Context-sensitive help is given to users (WCAG 3.3.5)</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Audio is not played automatically for more than 3 seconds, users are able to pause or prevent audio (WCAG 1.4.2)</td>
+                        <td>Purpose of links / buttons can be determined from link / button text and context (WCAG 2.4.4)</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Normal-size (&lt; 18 pt / 14pt bold) text: Contrast ratio of 4.5:1 [2, 2.3] (WCAG 1.4.3)</td>
+                        <td>Screen has multiple ways to reach it (search function, sitemap, navigation menu) (WCAG 2.4.5)</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Large text ( &gt;18 pt / 14 pt bold): Contrast ratio of 3:1 [2, 2.3] (WCAG 1.4.3)</td>
+                        <td>Headings and labels describe topic / purpose (WCAG 2.4.6)</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Text can be resized to 200%&nbsp;(WCAG 1.4.4)</td>
+                        <td>Focus/currently selected element is clearly visible (WCAG 2.4.7)</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Content resizes and reflows for the magnified viewport size&nbsp;(WCAG 1.4.4)</td>
+                        <td>App uses breadcrumbs to aid in navigation and displays where the user is within the app (WCAG 2.4.8)</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Images of text are not used (WCAG 1.4.5)</td>
+                        <td>Link / button purpose can be determined from link / button text only (WCAG 2.4.9)</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Contrast ratio between background and text is at least 7:1 (WCAG 1.4.6)</td>
+                        <td>Content is broken up by headings (WCAG 2.4.10)</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Low or no background audio. Background audio can be turned off or must be 20 decibels lower (~4 times quieter) than foreground (WCAG 1.4.7)</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Users are offered a range of presentation options. Users can select from foreground and background colors (WCAG 1.4.8)&nbsp;[TAWU R9]</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Width is no more than 80 characters or glyphs (40 if CJK) (WCAG 1.4.8)</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Text is not justified (aligned to both the left and the right margins) (WCAG 1.4.8)</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Line spacing (leading) is at least space-and-a-half within paragraphs, and paragraph spacing is at least 1.5 times larger than the line spacing. (WCAG 1.4.8)</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Text can be resized without assistive technology up to 200 percent in a way that does not require the user to scroll horizontally to read a line of text on a full-screen window. [2, 2.2] (WCAG 1.4.8)</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
